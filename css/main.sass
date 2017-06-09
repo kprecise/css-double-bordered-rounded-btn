@@ -1,0 +1,289 @@
+body
+	background: #fafafa
+	margin: 16px 0
+	.container
+		h1
+			font-size: 23px
+			display: inline-block
+		.credit-count-container
+			display: inline-block
+			margin: 6px 0
+			.credit-count		
+				display: inline-block					
+				border-radius: 50%
+				width: 22px
+				height: 22px 
+				background: #d03b5b
+				.credit-value
+					color: #fff
+					font-size: 12px
+					text-align: center
+					padding: 3px 1px 0 0
+			.credit-label 
+				display: inline-block
+				padding: 0 0 2px 4px
+				font-size: 14px
+		.progress-bar-container
+			float: left	
+			margin-top: 8px	
+			.progress-bar
+				float: left
+				width: auto
+				min-width: 200px
+				border: 1px #e1e1e1 solid
+				height: 15px
+				margin: 4px 0 0
+				box-shadow: none
+				background-color: #fff
+				border-radius: 2px 4px 2px 4px
+				.progress-fill
+					background: #84c132
+					width: 49%
+					height: 14px
+			.progress-count
+				float: left
+				color: #757575
+				font-size: 14px
+				padding-left: 10px
+				span
+					color: #46811b
+					font-weight: bold
+		.requirements-filter 
+			width: 100%	
+			height: auto
+			background-color: #f1f1f1
+			border: 1px #e1e1e1 solid
+			border-radius: 7px
+			padding: 7px 14px
+			margin-top: 18px
+			select
+				margin: 0 0 0 15px
+				color: #757575
+				height: 34px
+				min-width: 165px
+				width: auto
+				font-size: 13px
+				border: 1px #ccc solid
+				background-color: #fff
+				-webkit-appearance: none
+				-moz-appearance: none
+				padding: 0 7px
+			select::-ms-expand
+				display: none	
+			legend
+				margin-right: 8px
+				font-size: 13px
+				font-weight: normal
+				color: #757575
+				border-width: 0
+				margin-bottom: 0
+			input.checkbox
+				margin: 0 6px 0 8px
+			input#remaining
+				margin-left: 0
+			form
+				display: inline-block
+				color: #757575
+				fieldset
+					display: inline-block
+					margin: 0 0 6px
+					position: relative
+					span
+						position: absolute
+						right: 10px
+						top: 10px
+						color: #828282
+						pointer-events: none
+				label
+					font-size: 13px
+					font-weight: normal
+				input 
+					display: inline-block
+		.plan
+			margin-top: 18px
+			background-color: transparent
+			.header
+				padding: 14px 0 0 8px	
+				
+				h2
+					font-size: 17px
+					text-transform: uppercase
+					margin: 0
+					span
+						text-transform: none
+				p
+					font-size: 13px
+					color: #757575		
+					margin-bottom: 12px		
+					padding: 0 0 6px
+			.footer
+				background-color: #32afdd
+				width: 100%
+				padding: 19px 0	
+				.btn-container
+					width: 167px
+					height: 40px
+					border-radius: 5px
+					margin: 0 auto
+					background-color: transparent
+					border: 1px #127cad solid
+					.btn-primary
+						display: block	
+						background-color: #127cad
+						padding: 4px 15px
+						border-radius: 5px
+						border: 1px #6fc1e7 solid
+						width: 165px
+						height: 38px
+						&:hover 
+							background-color: #fff
+							color: #127cad		
+			&.selected
+				border-radius: 7px
+				border: 1px #ccc solid
+				background-color: #fff
+				.header
+					background-color: #f1f1f1
+					border-radius: 7px
+			.slot
+				padding: 8px 12px
+				border-radius: 7px
+				border: 1px #ccc solid
+				background: #fff
+				margin: 0 8px 5px
+				color: #484848
+				height: 48px
+				position: relative
+				h3
+					font-size: 13px	
+					font-weight: normal
+					margin: 0 0 2px
+				.slot-header
+					float: left
+					clear: both
+					width: 100%
+					height: 17px
+					h3
+						float: left
+					.credit-count-container
+						float: right
+						margin-top: -4px
+						.credit-count
+							height: 18px
+							width: 18px
+							.credit-value
+								padding: 0
+				p
+					float: left
+					font-size: 13px	
+				p.credit-cost
+					float: right
+					color: #c5c5c5	
+				span 
+					color: #c5c5c5
+				.glyphicon
+					color: #fff
+					position: absolute
+					left: -26px
+					top: 15px		
+				&.chosen-subject
+					border-left: 8px #84c132 solid
+				&.add-subject
+					border-left: 40px #32afdd solid
+					padding-top: 5px
+					a
+						color: #32afdd
+						font-size: 13px
+					p.credit-cost
+						display: block
+						float: none
+				&.detail
+					border-left: 8px #fc476e solid
+					height: 72px!important				
+				&.empty
+					border: 1px #ccc dotted
+					p
+						color: #c5c5c5
+						font-size: 13px
+						padding: 7px 0 0 7px
+				.tooltip		
+					left: -24px !important
+					top: -84px !important			
+					.tooltip-inner
+						background-color: transparent
+						max-width: 277px !important	
+						width: 277px !important
+					.tooltip-arrow
+						left: 235px !important	
+						bottom: 13px !important	
+						border-width: 0 5px 5px
+						z-index: 9000
+				.tooltip.top 
+					.tooltip-arrow 
+						background: #fff
+						border: 1px solid #ccc
+						&:before, &:after
+							top: 100%
+							left: 50%
+							border: solid transparent
+							content: ''
+							height: 0
+							width: 0
+							position: absolute
+						&:after
+							border-color: rgba(255, 255, 255, 0)
+							border-top-color: #fff
+							border-width: 10px
+							margin-left: -3px
+						&:before
+							border-color: rgba(204, 204, 204, 0)
+							border-top-color: #ccc
+							border-width: 11px
+							margin-left: -4px
+				.more-info
+					border: 0
+					background: none
+					border-width: 0
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px)
+	body	
+		.container
+			h1
+				font-size: 25px
+			.credit-count-container
+				margin: 0 0 0 15px
+			.requirements-filter
+				margin-top: 8px
+				select
+					min-width: 298px
+					padding: 7px
+					height: 35px
+					margin: 0 20px 0 15px
+				form
+					fieldset
+						margin: 0
+						span
+							top: 11px
+							right: 36px 
+					fieldset:first-child
+						padding-left: 12px
+						border-right: 1px #e1e1e1 solid
+					label
+						font-size: 13px
+					input.checkbox
+						margin: 0 6px 0 18px
+					input#remaining
+						margin-left: 6px						
+					input#all
+						margin: 0 6px 0 0
+					legend
+						margin-right: 21px
+						font-size: 13px
+						margin: 0 21px 0 18px
+						border: 0
+						line-height: 1em						
+			.progress-bar-container
+				float: right
+				margin-top: 24px
+

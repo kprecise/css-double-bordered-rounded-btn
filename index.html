@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Career Crusing Test</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>    
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-5">
+          <h1>High-School Diploma 2017</h1>      
+          <div class="credit-count-container">     
+            <div class="credit-count">
+              <div class="credit-value">14</div>
+            </div>
+            <div class="credit-label">Credits Left</div>    
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-7">
+          <div class="progress-bar-container">
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>            
+            <div class="progress-count"><span>14</span> / 30</div>  
+          </div>                  
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <!-- Requirements filter STARTS -->
+          <div class="requirements-filter">
+          <form>
+            <fieldset>            
+              <label for="requirements">Requirements</label> 
+              <select name="requirements">
+                <option selected>Show All</option>
+                <option>Requirement 1</option>
+                <option>Requirement 2</option>
+                <option>Requirement 3</option>
+                <option>Requirement 4</option>                
+              </select>
+              <span class="glyphicon glyphicon-chevron-down"></span> 
+            </fieldset>            
+            <fieldset>
+              <legend>Credits</legend>
+            </fieldset>
+            <fieldset>            
+              <input class="checkbox" type="checkbox" name="all" id="all" />
+              <label for="all">All</label>     
+            </fieldset>
+            <fieldset>            
+              <input class="checkbox" type="checkbox" name="earned" id="earned" />
+              <label for="earned">Earned</label>     
+            </fieldset>            
+            <fieldset>            
+              <input class="checkbox" type="checkbox" name="planned" id="planned" />
+              <label for="planned">Planned</label>     
+            </fieldset>
+            <fieldset>            
+              <input class="checkbox" type="checkbox" name="remaining" id="remaining" />
+              <label for="planned">Remaining</label>     
+            </fieldset>
+          </form>   
+          </div>
+          <!-- Requirements filter ENDS -->
+        </div>        
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-3">
+          <!-- Year Plan STARTS -->
+          <div class="plan selected">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="header">
+                  <h2>Year 9 <span>(next year)</span></h2>
+                  <p>1 credit planned</p>
+                </div>  
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot chosen-subject">
+                  <h3>English</h3>
+                  <p class="details">ENG1PI ｜<span> English 9</span></p>
+                  <p class="credit-cost">1 cr.</p>
+                </div>  
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot chosen-subject">
+                  <div class="slot-header">
+                    <h3>Functions</h3>
+                    <div class="credit-count-container">     
+                      <div class="credit-count">
+                        <div class="credit-value">
+                          <button type="button" class="more-info" title="">i</button>
+                        </div>
+                      </div>  
+                    </div>
+                  </div>
+                  <p class="details">MAT1U1 ｜<span> Math 9</span></p>
+                  <p class="credit-cost">1 cr.</p>
+                </div>  
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot add-subject">
+                  <a href="#" title="Add"><span class="glyphicon glyphicon-plus"></span></a> 
+                  <a href="#" title="Add">Add Science 9</a>
+                  <p class="credit-cost">1 cr.</p>
+                </div>  
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot add-subject">
+                  <a href="#" title="Add"><span class="glyphicon glyphicon-plus"></span></a> 
+                  <a href="#" title="Add">Add Geography</a>
+                  <p class="credit-cost">1 cr.</p>
+                </div>  
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot add-subject">
+                  <a href="#" title="Add"><span class="glyphicon glyphicon-plus"></span></a> 
+                  <a href="#" title="Add">Add French</a>
+                  <p class="credit-cost">1 cr.</p>
+                </div>  
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot add-subject"">
+                  <a href="#" title="Add"><span class="glyphicon glyphicon-plus"></span></a> 
+                  <a href="#" title="Add">Add Elective</a>
+                  <p class="credit-cost">16 credits remaining</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>               
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="footer">
+                  <div class="btn-container">
+                    <input type="submit" value="Ready To Submit" class="btn-primary" />  
+                  </div>                              
+                </div>  
+              </div>
+            </div> 
+          </div>
+          <!-- Year Plan ENDS -->
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <!-- Year Plan STARTS -->
+          <div class="plan">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="header">
+                  <h2>Year 10</h2>
+                  <p>0 credits earned</p>
+                </div>  
+              </div>
+            </div>          
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+          </div>
+          <!-- Year Plan ENDS -->
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <!-- Year Plan STARTS -->
+          <div class="plan">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="header">
+                  <h2>Year 11</h2>
+                  <p>0 credits earned</p>
+                </div>  
+              </div>
+            </div>          
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+          </div>
+          <!-- Year Plan ENDS -->
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <!-- Year Plan STARTS -->
+          <div class="plan">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="header">
+                  <h2>Year 12</h2>
+                  <p>0 credits earned</p>
+                </div>  
+              </div>
+            </div>          
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="slot empty">
+                  <p>Available Slot</p>                
+                </div>  
+              </div>
+            </div>  
+          </div>
+          <!-- Year Plan ENDS -->
+        </div>        
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/main.js"></script>
+  </body>
+</html>

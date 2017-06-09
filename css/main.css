@@ -1,0 +1,284 @@
+body {
+  background: #fafafa;
+  margin: 16px 0; }
+  body .container h1 {
+    font-size: 23px;
+    display: inline-block; }
+  body .container .credit-count-container {
+    display: inline-block;
+    margin: 6px 0; }
+    body .container .credit-count-container .credit-count {
+      display: inline-block;
+      border-radius: 50%;
+      width: 22px;
+      height: 22px;
+      background: #d03b5b; }
+      body .container .credit-count-container .credit-count .credit-value {
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        padding: 3px 1px 0 0; }
+    body .container .credit-count-container .credit-label {
+      display: inline-block;
+      padding: 0 0 2px 4px;
+      font-size: 14px; }
+  body .container .progress-bar-container {
+    float: left;
+    margin-top: 8px; }
+    body .container .progress-bar-container .progress-bar {
+      float: left;
+      width: auto;
+      min-width: 200px;
+      border: 1px #e1e1e1 solid;
+      height: 15px;
+      margin: 4px 0 0;
+      box-shadow: none;
+      background-color: #fff;
+      border-radius: 2px 4px 2px 4px; }
+      body .container .progress-bar-container .progress-bar .progress-fill {
+        background: #84c132;
+        width: 49%;
+        height: 14px; }
+    body .container .progress-bar-container .progress-count {
+      float: left;
+      color: #757575;
+      font-size: 14px;
+      padding-left: 10px; }
+      body .container .progress-bar-container .progress-count span {
+        color: #46811b;
+        font-weight: bold; }
+  body .container .requirements-filter {
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    border: 1px #e1e1e1 solid;
+    border-radius: 7px;
+    padding: 7px 14px;
+    margin-top: 18px; }
+    body .container .requirements-filter select {
+      margin: 0 0 0 15px;
+      color: #757575;
+      height: 34px;
+      min-width: 165px;
+      width: auto;
+      font-size: 13px;
+      border: 1px #ccc solid;
+      background-color: #fff;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding: 0 7px; }
+    body .container .requirements-filter select::-ms-expand {
+      display: none; }
+    body .container .requirements-filter legend {
+      margin-right: 8px;
+      font-size: 13px;
+      font-weight: normal;
+      color: #757575;
+      border-width: 0;
+      margin-bottom: 0; }
+    body .container .requirements-filter input.checkbox {
+      margin: 0 6px 0 8px; }
+    body .container .requirements-filter input#remaining {
+      margin-left: 0; }
+    body .container .requirements-filter form {
+      display: inline-block;
+      color: #757575; }
+      body .container .requirements-filter form fieldset {
+        display: inline-block;
+        margin: 0 0 6px;
+        position: relative; }
+        body .container .requirements-filter form fieldset span {
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          color: #828282;
+          pointer-events: none; }
+      body .container .requirements-filter form label {
+        font-size: 13px;
+        font-weight: normal; }
+      body .container .requirements-filter form input {
+        display: inline-block; }
+  body .container .plan {
+    margin-top: 18px;
+    background-color: transparent; }
+    body .container .plan .header {
+      padding: 14px 0 0 8px; }
+      body .container .plan .header h2 {
+        font-size: 17px;
+        text-transform: uppercase;
+        margin: 0; }
+        body .container .plan .header h2 span {
+          text-transform: none; }
+      body .container .plan .header p {
+        font-size: 13px;
+        color: #757575;
+        margin-bottom: 12px;
+        padding: 0 0 6px; }
+    body .container .plan .footer {
+      background-color: #32afdd;
+      width: 100%;
+      padding: 19px 0; }
+      body .container .plan .footer .btn-container {
+        width: 167px;
+        height: 40px;
+        border-radius: 5px;
+        margin: 0 auto;
+        background-color: transparent;
+        border: 1px #127cad solid; }
+        body .container .plan .footer .btn-container .btn-primary {
+          display: block;
+          background-color: #127cad;
+          padding: 4px 15px;
+          border-radius: 5px;
+          border: 1px #6fc1e7 solid;
+          width: 165px;
+          height: 38px; }
+          body .container .plan .footer .btn-container .btn-primary:hover {
+            background-color: #fff;
+            color: #127cad; }
+    body .container .plan.selected {
+      border-radius: 7px;
+      border: 1px #ccc solid;
+      background-color: #fff; }
+      body .container .plan.selected .header {
+        background-color: #f1f1f1;
+        border-radius: 7px; }
+    body .container .plan .slot {
+      padding: 8px 12px;
+      border-radius: 7px;
+      border: 1px #ccc solid;
+      background: #fff;
+      margin: 0 8px 5px;
+      color: #484848;
+      height: 48px;
+      position: relative; }
+      body .container .plan .slot h3 {
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0 0 2px; }
+      body .container .plan .slot .slot-header {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 17px; }
+        body .container .plan .slot .slot-header h3 {
+          float: left; }
+        body .container .plan .slot .slot-header .credit-count-container {
+          float: right;
+          margin-top: -4px; }
+          body .container .plan .slot .slot-header .credit-count-container .credit-count {
+            height: 18px;
+            width: 18px; }
+            body .container .plan .slot .slot-header .credit-count-container .credit-count .credit-value {
+              padding: 0; }
+      body .container .plan .slot p {
+        float: left;
+        font-size: 13px; }
+      body .container .plan .slot p.credit-cost {
+        float: right;
+        color: #c5c5c5; }
+      body .container .plan .slot span {
+        color: #c5c5c5; }
+      body .container .plan .slot .glyphicon {
+        color: #fff;
+        position: absolute;
+        left: -26px;
+        top: 15px; }
+      body .container .plan .slot.chosen-subject {
+        border-left: 8px #84c132 solid; }
+      body .container .plan .slot.add-subject {
+        border-left: 40px #32afdd solid;
+        padding-top: 5px; }
+        body .container .plan .slot.add-subject a {
+          color: #32afdd;
+          font-size: 13px; }
+        body .container .plan .slot.add-subject p.credit-cost {
+          display: block;
+          float: none; }
+      body .container .plan .slot.detail {
+        border-left: 8px #fc476e solid;
+        height: 72px !important; }
+      body .container .plan .slot.empty {
+        border: 1px #ccc dotted; }
+        body .container .plan .slot.empty p {
+          color: #c5c5c5;
+          font-size: 13px;
+          padding: 7px 0 0 7px; }
+      body .container .plan .slot .tooltip {
+        left: -24px !important;
+        top: -84px !important; }
+        body .container .plan .slot .tooltip .tooltip-inner {
+          background-color: transparent;
+          max-width: 277px !important;
+          width: 277px !important; }
+        body .container .plan .slot .tooltip .tooltip-arrow {
+          left: 235px !important;
+          bottom: 13px !important;
+          border-width: 0 5px 5px;
+          z-index: 9000; }
+      body .container .plan .slot .tooltip.top .tooltip-arrow {
+        background: #fff;
+        border: 1px solid #ccc; }
+        body .container .plan .slot .tooltip.top .tooltip-arrow:before, body .container .plan .slot .tooltip.top .tooltip-arrow:after {
+          top: 100%;
+          left: 50%;
+          border: solid transparent;
+          content: "";
+          height: 0;
+          width: 0;
+          position: absolute; }
+        body .container .plan .slot .tooltip.top .tooltip-arrow:after {
+          border-color: rgba(255, 255, 255, 0);
+          border-top-color: #fff;
+          border-width: 10px;
+          margin-left: -3px; }
+        body .container .plan .slot .tooltip.top .tooltip-arrow:before {
+          border-color: rgba(204, 204, 204, 0);
+          border-top-color: #ccc;
+          border-width: 11px;
+          margin-left: -4px; }
+      body .container .plan .slot .more-info {
+        border: 0;
+        background: none;
+        border-width: 0; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body .container h1 {
+    font-size: 25px; }
+  body .container .credit-count-container {
+    margin: 0 0 0 15px; }
+  body .container .requirements-filter {
+    margin-top: 8px; }
+    body .container .requirements-filter select {
+      min-width: 298px;
+      padding: 7px;
+      height: 35px;
+      margin: 0 20px 0 15px; }
+    body .container .requirements-filter form fieldset {
+      margin: 0; }
+      body .container .requirements-filter form fieldset span {
+        top: 11px;
+        right: 36px; }
+    body .container .requirements-filter form fieldset:first-child {
+      padding-left: 12px;
+      border-right: 1px #e1e1e1 solid; }
+    body .container .requirements-filter form label {
+      font-size: 13px; }
+    body .container .requirements-filter form input.checkbox {
+      margin: 0 6px 0 18px; }
+    body .container .requirements-filter form input#remaining {
+      margin-left: 6px; }
+    body .container .requirements-filter form input#all {
+      margin: 0 6px 0 0; }
+    body .container .requirements-filter form legend {
+      margin-right: 21px;
+      font-size: 13px;
+      margin: 0 21px 0 18px;
+      border: 0;
+      line-height: 1em; }
+  body .container .progress-bar-container {
+    float: right;
+    margin-top: 24px; } }
+
+/*# sourceMappingURL=main.css.map */
