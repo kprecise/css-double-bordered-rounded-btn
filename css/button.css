@@ -1,0 +1,39 @@
+/**
+
+* Plugin: Double Bordered Rounded Button
+* Framework: CSS3
+* Date: 8th June 2017
+* Author: Kyri Kyriacou
+* www.cheekyiguana.com
+
+**/
+
+.btn-container {
+  width: 167px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px #44747c solid; 
+  position: relative;
+}
+
+.btn-container .btn-submit {
+  display: block;
+  background-color: #44747c;
+  padding: 4px 15px;
+  border-radius: 5px;
+  border: 1px #44747c solid;
+  width: 165px;
+  height: 38px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+
+.btn-container .btn-submit:hover {
+  background-color: #fff;
+  color: #44747c; 
+}
